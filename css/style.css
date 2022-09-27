@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* { box-sizing: border-box;}
+body { height: 100%; }
+
+section {
+  position: relative;
+  text-align: center;
+  height: 200px;
+}
+
+img {
+  display: inline;
+  width: 200px;
+}
+
+img:nth-child(2) {
+  width: 150px;
+}
+
+img:nth-child(5) {
+  width: 120px;
+}
