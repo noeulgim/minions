@@ -1,0 +1,12 @@
+$(function(){
+  $('img:nth-child(0)').mouseenter(function(){$(this).attr('src','./img/min01.gif')});
+  $('img:nth-child(1)').mouseenter(function(){$(this).attr('src','./img/min02.gif')});
+  $('img:nth-child(2)').mouseenter(function(){$(this).attr('src','./img/min03.gif')});
+  $('img:nth-child(3)').mouseenter(function(){$(this).attr('src','./img/min04.gif')});
+  $('img:nth-child(4)').mouseenter(function(){$(this).attr('src','./img/min05.gif')});
+  $('img:nth-child(0)').mouseleave(function(){$(this).attr('src','./img/min01.png')});
+  $('img:nth-child(1)').mouseleave(function(){$(this).attr('src','./img/min02.png')});
+  $('img:nth-child(2)').mouseleave(function(){$(this).attr('src','./img/min03.png')});
+  $('img:nth-child(3)').mouseleave(function(){$(this).attr('src','./img/min04.png')});
+  $('img:nth-child(4)').mouseleave(function(){$(this).attr('src','./img/min05.png')});
+});
